@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Navbar from "@/components/navbar/navbar";
+import Footer from "@/components/footer/footer";
 
 export default function Home() {
   return (
@@ -10,7 +11,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.jpg" />
       </Head>
       <Navbar />
-      <div>pippo</div>
+      <Footer />
     </>
   );
 }
