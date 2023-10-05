@@ -4,6 +4,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 
+.body {
+    background-color: white;
+    position: relative;
+}
+
 .title {
     font-family: 'Crimson Text', serif;
     font-size: 28px;
@@ -25,12 +30,34 @@
     font-size: 15px;
 }
 
+.chi-siamo-container {
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    position: relative;
+    background-color: white;
+}
+
+.titolo-chi-siamo {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.paragrafo-chi-siamo {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.img-chi-siamo {
+    border-radius: 20px;
+}
+
 .footer {
     background-color: black;
     color: whitesmoke;
 }
 
 .title-footer {
+    font-family: 'Crimson Text', serif;
     color: white;
     font-weight: 700;
     font-size: 18px;

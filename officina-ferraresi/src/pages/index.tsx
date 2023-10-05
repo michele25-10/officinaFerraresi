@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Navbar from "@/components/navbar/navbar";
 import Footer from "@/components/footer/footer";
+import ChiSiamo from "@/components/chiSiamo/chiSiamo";
 
 export default function Home() {
   return (
@@ -10,8 +11,11 @@ export default function Home() {
         <meta name="description" content="Officina Ferraresi sito web" />
         <link rel="icon" href="/favicon.jpg" />
       </Head>
-      <Navbar />
-      <Footer />
+      <main className="body">
+        <Navbar />
+        <ChiSiamo />
+        <Footer />
+      </main>
     </>
   );
 }
