@@ -1,3 +1,31 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+
+.body {
+    background-color: white;
+}
+
+.title {
+    font-family: 'Crimson Text', serif;
+    font-size: 28px;
+    font-weight: 500;
+    color: white;
+}
+
+.navbar {
+    background-color: black;
+    height: 80px;
+}
+
+#dropdown-menu {
+    background-color: black;
+}
+
+#text-dropdown {
+    color: white;
+    font-size: 15px;
+}
