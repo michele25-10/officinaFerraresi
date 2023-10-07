@@ -31,7 +31,7 @@ export default function ChiSiamo() {
                 <br /> Un occhio al futuro e uno al passato per fornirvi il
                 servizio di cui avete bisogno.
               </p>
-              <button className="btn bg-blue-500 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500">
+              <button className="btn mt-5 bg-blue-500 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500">
                 Dove trovarci
               </button>
             </div>
