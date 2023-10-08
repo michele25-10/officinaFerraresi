@@ -3,8 +3,7 @@
 @tailwind utilities;
 
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&family=Josefin+Sans&family=Lato&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Love+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,700;1,600&display=swap');
 
 .body {
     background-color: white;
@@ -13,8 +12,9 @@
 
 .title {
     font-family: 'Crimson Text', serif;
+    font-style: italic;
     font-size: 28px;
-    font-weight: 500;
+    font-weight: 400;
     color: white;
 }
 
@@ -50,25 +50,39 @@
     }
 }
 
-.chi-siamo-container {
-    margin: 10px 10px 10px 10px;
-    padding: 10px 10px 10px 10px;
+.shine {
+    height: 20px;
+    width: 60%;
+    background-image: radial-gradient(farthest-side at 50% -50%,
+            hsla(0, 0%, 0%, 0.5),
+            hsla(0, 0%, 0%, 0));
     position: relative;
-    background-color: white;
 }
+
+.shine::before {
+    height: 1px;
+    position: absolute;
+    top: -1px;
+    left: 0;
+    right: 0;
+    background-image: linear-gradient(90deg,
+            hsla(0, 0%, 0%, 0),
+            hsla(0, 0%, 0%, 0.75) 50%,
+            hsla(0, 0%, 0%, 0));
+}
+
+
 
 .titolo-chi-siamo {
-    font-weight: 700;
+    font-family: 'Crimson Text', serif;
+    font-weight: 600;
+    font-style: italic;
     font-size: 18px;
 }
 
-.paragrafo-chi-siamo {
-    margin-top: 20px;
-    font-size: 18px;
-}
-
-.img-chi-siamo {
-    border-radius: 20px;
+.chi-siamo-testo {
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .footer {
