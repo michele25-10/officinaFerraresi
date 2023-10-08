@@ -3,6 +3,8 @@
 @tailwind utilities;
 
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&family=Josefin+Sans&family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Love+Light&display=swap');
 
 .body {
     background-color: white;
@@ -28,6 +30,24 @@
 #text-dropdown {
     color: white;
     font-size: 15px;
+}
+
+.header-site {
+    height: 90vh;
+    background-image: url(../../public/foto-testata.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media only screen and (max-width: 1000px) {
+    .header-site {
+        height: 90vh;
+        background-image: url(../../public/foto-header.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 }
 
 .chi-siamo-container {

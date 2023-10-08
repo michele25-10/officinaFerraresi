@@ -2,6 +2,7 @@ import Head from "next/head";
 import Navbar from "@/components/navbar/navbar";
 import Footer from "@/components/footer/footer";
 import ChiSiamo from "@/components/chiSiamo/chiSiamo";
+import HeaderSite from "@/components/headerSite/headerSite";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       </Head>
       <main className="body">
         <Navbar />
+        <HeaderSite />
         <ChiSiamo />
         <Footer />
       </main>
