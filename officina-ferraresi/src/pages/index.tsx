@@ -4,6 +4,7 @@ import Footer from "@/components/footer/footer";
 import ChiSiamo from "@/components/chiSiamo/chiSiamo";
 import HeaderSite from "@/components/headerSite/headerSite";
 import Line from "@/components/line/line";
+import Galleria from "@/components/galleria/galleria";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         <Line />
         <ChiSiamo />
         <Line />
+        <Galleria />
         <Footer />
       </main>
     </>

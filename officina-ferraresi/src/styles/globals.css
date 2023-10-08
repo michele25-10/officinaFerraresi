@@ -73,14 +73,14 @@
 
 
 
-.titolo-chi-siamo {
+.titolo-paragrafo {
     font-family: 'Crimson Text', serif;
     font-weight: 600;
     font-style: italic;
     font-size: 18px;
 }
 
-.chi-siamo-testo {
+.testo-paragrafo {
     padding-left: 20px;
     padding-right: 20px;
 }

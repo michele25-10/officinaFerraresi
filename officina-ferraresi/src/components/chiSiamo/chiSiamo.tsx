@@ -5,8 +5,8 @@ export default function ChiSiamo() {
     <>
       <div className="chi-siamo-container">
         <div className="">
-          <h2 className="titolo-chi-siamo mb-2 text-center">Chi siamo?</h2>
-          <div className="chi-siamo-testo">
+          <h2 className="titolo-paragrafo mb-2 text-center">Chi siamo?</h2>
+          <div className="testo-paragrafo">
             <p className="text-center">
               Officina Ferraresi nasce nel 1970 dal suo fondatore Maurizio
               Ferraresi e dalla moglie Maria Antonietta. Dopo alcuni anni di
