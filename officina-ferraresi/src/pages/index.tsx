@@ -5,6 +5,7 @@ import ChiSiamo from "@/components/chiSiamo/chiSiamo";
 import HeaderSite from "@/components/headerSite/headerSite";
 import Line from "@/components/line/line";
 import Galleria from "@/components/galleria/galleria";
+import DoveTrovarci from "@/components/doveTrovarci/doveTrovarci";
 
 export default function Home() {
   return (
@@ -19,6 +20,8 @@ export default function Home() {
         <HeaderSite />
         <Line />
         <ChiSiamo />
+        <Line />
+        <DoveTrovarci />
         <Line />
         <Galleria />
         <Footer />
