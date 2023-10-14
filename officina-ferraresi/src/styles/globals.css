@@ -50,6 +50,16 @@
     }
 }
 
+@media only screen and (max-width: 450px) {
+    .header-site {
+        height: 90vh;
+        background-image: url(../../public/foto-header.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
 .shine {
     height: 20px;
     width: 60%;
@@ -71,8 +81,6 @@
             hsla(0, 0%, 0%, 0));
 }
 
-
-
 .titolo-paragrafo {
     font-family: 'Crimson Text', serif;
     font-weight: 600;
@@ -81,8 +89,15 @@
 }
 
 .testo-paragrafo {
+    font-family: 'Crimson Text', serif;
     padding-left: 20px;
     padding-right: 20px;
+}
+
+.mappa {
+    border: 0;
+    height: 400px;
+    width: 400px;
 }
 
 .footer {
