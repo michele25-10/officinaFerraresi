@@ -1,7 +1,6 @@
 import React from "react";
 import { useState, useEffect } from "react";
-import { number } from "zod";
-
+import { BiSolidPhoneCall } from "react-icons/bi";
 export default function DoveTrovarci() {
   const [windowSize, setWindowSize] = useState({
     width: 0,
@@ -25,13 +24,12 @@ export default function DoveTrovarci() {
 
     return () => window.removeEventListener("resize", handleResize);
   }, []);
-  console.log(windowSize);
   return (
     <div>
       <div className="text-center">
         <h2 className="titolo-paragrafo mb-3">Dove trovarci?</h2>
       </div>
-      <div className="dove-ci-troviamo p-5">
+      <div className="dove-ci-troviamo mb-5 p-5">
         <div className="grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
           <div>
             <div className="grid justify-center">
@@ -45,33 +43,60 @@ export default function DoveTrovarci() {
             </div>
           </div>
           <div>
-            <div className="text-center">
-              <h2 className="orari">Orari</h2>
+            <div className="">
+              <h2 className="sottotitolo-paragrafo">Orari</h2>
             </div>
-            <div>
-              <ul>
+            <div className="testo-paragrafo mb-5">
+              <ul className="list-disc">
                 <li>
-                  <span>lun: 08:00–12:00, 14:30–18:30</span>
+                  <span>
+                    <b>lun</b>: 08:00–12:00, 14:30–18:30
+                  </span>
                 </li>
                 <li>
-                  <span>mar: 08:00–12:00, 14:30–18:30</span>
+                  <span>
+                    <b>mar</b>: 08:00–12:00, 14:30–18:30
+                  </span>
                 </li>
                 <li>
-                  <span>mer: 08:00–12:00, 14:30–18:30</span>
+                  <span>
+                    <b>mer</b>: 08:00–12:00, 14:30–18:30
+                  </span>
                 </li>
                 <li>
-                  <span>gio: 08:00–12:00, 14:30–18:30</span>
+                  <span>
+                    <b>gio</b>: 08:00–12:00, 14:30–18:30
+                  </span>
                 </li>
                 <li>
-                  <span>ven: 08:00–12:00, 14:30–18:30</span>
+                  <span>
+                    <b>ven</b>: 08:00–12:00, 14:30–18:30
+                  </span>
                 </li>
                 <li>
-                  <span>sab: 08:30–11:30</span>
+                  <span>
+                    <b>sab</b>: 08:30–11:30
+                  </span>
                 </li>
                 <li>
-                  <span>dom: Chiuso</span>
+                  <span>
+                    <b>dom</b>: Chiuso
+                  </span>
                 </li>
               </ul>
+            </div>
+            <div>
+              <div className="sottotitolo-paragrafo">
+                <h2>Chiamaci ora!</h2>
+              </div>
+              <div className="chiama-ora mt-2">
+                <a href="tel:+3899982052">
+                  <button className="btn btn-error">
+                    <BiSolidPhoneCall fill="black" size={25} />
+                    +3899982052
+                  </button>
+                </a>
+              </div>
             </div>
           </div>
         </div>
