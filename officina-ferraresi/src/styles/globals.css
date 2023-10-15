@@ -6,7 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,700;1,600&display=swap');
 
 .body {
-    background-color: white;
+    background-color: #fffeef;
     position: relative;
 }
 
@@ -47,6 +47,12 @@
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .img-preventivo {
+        display: none;
     }
 }
 
@@ -91,9 +97,10 @@
     padding-right: 20px;
 }
 
-.richiedi-preventivo {
-    background-color: black;
 
+
+.img-preventivo {
+    height: 70vh;
 }
 
 .footer {
